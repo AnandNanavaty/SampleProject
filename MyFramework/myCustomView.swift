@@ -10,11 +10,11 @@ import UIKit
 
 public class myCustomView: UIView {
     
-    public  init(frame: CGRect) {
+    override public init(frame: CGRect) {
         
     }
     
-    public init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
     }
